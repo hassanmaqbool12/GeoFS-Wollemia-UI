@@ -7,8 +7,8 @@
 // @match        https://www.geo-fs.com/geofs.php*
 // @match        https://*.geo-fs.com/geofs.php*
 // @grant        none
-// @updateURL    https://github.com/hassanmaqbool12/GeoFS-Wollemia-UI/blob/main/geofs-wollemia-ui.user.js
-// @downloadURL  https://github.com/hassanmaqbool12/GeoFS-Wollemia-UI/blob/main/geofs-wollemia-ui.user.js
+// @updateURL   https://raw.githubusercontent.com/hassanmaqbool12/GeoFS-Wollemia-UI/main/geofs-wollemia-ui.user.js
+// @downloadURL https://raw.githubusercontent.com/hassanmaqbool12/GeoFS-Wollemia-UI/main/geofs-wollemia-ui.user.js
 // @run-at       document-idle
 // ==/UserScript==
 

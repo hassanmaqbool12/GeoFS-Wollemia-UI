@@ -21,6 +21,12 @@ This version is maintained and developed by [hassan maqbool](https://github.com/
 The original author is credited for the work on which this project was
 originally based.
 
+## Installation
+
+Click below to install the userscript:
+
+[**Install with Tampermonkey**](https://raw.githubusercontent.com/hassanmaqbool12/GeoFS-Wollemia-UI/main/geofs-wollemia-ui.user.js)
+
 ## Note
 
 This version was published here because the original author was not responding.
