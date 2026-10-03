@@ -1,4 +1,4 @@
-# Wollemia UI
+# Wollemia UI beta
 
 A modern, performance-focused UI inspired by flight-simulation
 interfaces.
@@ -21,19 +21,19 @@ features, bug fixes, and performance improvements.
 [Wollemia UI](https://github.com/hassanmaqbool12/GeoFS-Wollemia-UI) originated from [Bonsai UI](https://github.com/AndresTube/GeoFS-Bonsai-UI), originally created by
 [Fendrixx(AndresTube)](https://github.com/AndresTube).
 
-This version is maintained and developed by hassan maqbool.
+This version is maintained and developed by [hassan maqbool](https://github.com/hassanmaqbool12).
 
 ## Credits
 
 ### Original project
 
 - Original author: [Fendrixx(AndresTube)](https://github.com/AndresTube)
-- Original project: [GeoFS-Bonsai-UI](https://github.com/AndresTube/GeoFS-Bonsai-UI)
+- Original project: [GeoFS-Bonsai-UI 1.2.0](https://github.com/AndresTube/GeoFS-Bonsai-UI)
 
 ### Current version
 
 - Maintainer / developer: [hassan maqbool](https://github.com/hassanmaqbool12)
-- Repository: [Wollemia UI](https://github.com/hassanmaqbool12/GeoFS-Wollemia-UI)
+- Repository: [Wollemia UI 2.0](https://github.com/hassanmaqbool12/GeoFS-Wollemia-UI)
 
 The original author is credited for the work on which this project was
 originally based.
@@ -44,6 +44,6 @@ This version was published here because the original author was not responding.
 
 ## License
 
-[License information]
+### MIT License
 
 See [LICENSE](LICENSE) for the complete license text.
