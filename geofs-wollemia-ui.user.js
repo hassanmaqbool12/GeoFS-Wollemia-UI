@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GeoFS Wollemia UI
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Wollemia UI: Monochromatic MSFS-style HUD for GeoFS
 // @author       Fendrixx and Hassan
 // @match        https://www.geo-fs.com/geofs.php*
@@ -1262,13 +1262,13 @@
             const spdStrip = document.getElementById('spd-strip');
             if (spdStrip) {
                 const tapeH = spdStrip.parentElement.clientHeight;
-                const offset = ((400 - s.ias) / 10) * 24;
+                const offset = ((800 - s.ias) / 10) * 24;
                 spdStrip.style.top = (tapeH / 2 - offset - 12) + 'px';
             }
             const altStrip = document.getElementById('alt-strip');
             if (altStrip) {
                 const tapeH = altStrip.parentElement.clientHeight;
-                const offset = ((50000 - s.alt) / 200) * 24;
+                const offset = ((60000 - s.alt) / 200) * 24;
                 altStrip.style.top = (tapeH / 2 - offset - 12) + 'px';
             }
 
