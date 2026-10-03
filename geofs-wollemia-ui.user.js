@@ -723,12 +723,12 @@
 
     function buildSpeedTicks() {
         let html = '';
-        for (let v = 400; v >= 0; v -= 10) html += `<div class="tick">${v}</div>`;
+        for (let v = 800; v >= 0; v -= 10) html += `<div class="tick">${v}</div>`;
         return html;
     }
     function buildAltTicks() {
         let html = '';
-        for (let v = 50000; v >= 0; v -= 200) html += `<div class="tick">${v}</div>`;
+        for (let v = 60000; v >= 0; v -= 200) html += `<div class="tick">${v}</div>`;
         return html;
     }
 
