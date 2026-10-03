@@ -9,7 +9,7 @@
 // @grant        none
 // @updateURL   https://raw.githubusercontent.com/hassanmaqbool12/GeoFS-Wollemia-UI/main/geofs-wollemia-ui.user.js
 // @downloadURL https://raw.githubusercontent.com/hassanmaqbool12/GeoFS-Wollemia-UI/main/geofs-wollemia-ui.user.js
-// iconURL      
+// icon         https://raw.githubusercontent.com/hassanmaqbool12/GeoFS-Wollemia-UI/main/icon.svg
 // @run-at       document-idle
 // ==/UserScript==
 
