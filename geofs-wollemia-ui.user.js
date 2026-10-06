@@ -68,7 +68,7 @@
         pointer-events: none; z-index: 99999;
         font-family: 'Consolas','Menlo',monospace; color: #fff;
         text-shadow: 0 0 2px #000;
-        --bonsai-bottom: 10px;
+        --wollemia-bottom: 10px;
     }
     #msfs-ui-root .panel {
         position: relative;
@@ -259,6 +259,7 @@
     #msfs-gear .val.tran { color: #fff; background: rgba(235, 184, 0, 0.45); border-color: #db3; animation: sos 1s ease-in-out infinite;}
     #msfs-gear .val.off { color: #fff; background: rgba(235, 0, 0, 0.35); border-color: #c66; }
     #msfs-brk  .val.on  { color: #fff; background: rgba(235, 184, 0, 0.45);  border-color: #db3; }
+    #msfs-brk .val.tran { color: #fff; background: rgba(235, 184, 0, 0.45); border-color: #db3; animation: sos 1s ease-in-out infinite;}
     #msfs-brk  .val.off { color: #aaa; }
 
     @keyframes sos {
@@ -534,7 +535,7 @@
         transition: opacity 0.2s ease, background 0.15s, border-color 0.15s !important;
     }
 
-    #bonsai-landing-popup {
+    #wollemia-landing-popup {
         position: fixed;
         bottom: 56px;
         left: 50%;
@@ -558,23 +559,23 @@
         gap: 10px;
         white-space: nowrap;
     }
-    #bonsai-landing-popup.show {
+    #wollemia-landing-popup.show {
         opacity: 1;
         transform: translate(-50%, 0);
     }
-    #bonsai-landing-popup .bl-fpm {
+    #wollemia-landing-popup .bl-fpm {
         font-size: 18px;
         font-weight: bold;
         letter-spacing: 1.5px;
         line-height: 1;
     }
-    #bonsai-landing-popup .bl-fpm-unit {
+    #wollemia-landing-popup .bl-fpm-unit {
         font-size: 10px;
         color: #bbb;
         letter-spacing: 1.5px;
         text-transform: uppercase;
     }
-    #bonsai-landing-popup .bl-grade {
+    #wollemia-landing-popup .bl-grade {
         display: inline-block;
         padding: 3px 10px;
         font-size: 11px;
@@ -584,12 +585,12 @@
         border-radius: 3px;
         border: 1px solid rgba(255,255,255,0.2);
     }
-    #bonsai-landing-popup .bl-grade.butter     { background: #1e6b1e; color: #fff; }
-    #bonsai-landing-popup .bl-grade.great      { background: #2c8a2c; color: #fff; }
-    #bonsai-landing-popup .bl-grade.acceptable { background: #b58a00; color: #000; }
-    #bonsai-landing-popup .bl-grade.hard       { background: #a83232; color: #fff; }
-    #bonsai-landing-popup .bl-grade.crash      { background: #5c0000; color: #fff; }
-    #bonsai-landing-popup .bl-title {
+    #wollemia-landing-popup .bl-grade.butter     { background: #1e6b1e; color: #fff; }
+    #wollemia-landing-popup .bl-grade.great      { background: #2c8a2c; color: #fff; }
+    #wollemia-landing-popup .bl-grade.acceptable { background: #b58a00; color: #000; }
+    #wollemia-landing-popup .bl-grade.hard       { background: #a83232; color: #fff; }
+    #wollemia-landing-popup .bl-grade.crash      { background: #5c0000; color: #fff; }
+    #wollemia-landing-popup .bl-title {
         font-size: 9px;
         color: #aaa;
         letter-spacing: 2px;
@@ -623,7 +624,7 @@
     }
 
     body.msfs-hidden #msfs-ui-root,
-    body.msfs-hidden #bonsai-landing-popup { display: none !important; }
+    body.msfs-hidden #wollemia-landing-popup { display: none !important; }
 
     body .geofs-alarms-container,
     body .geofs-control-status,
@@ -652,7 +653,7 @@
         transform-origin: 0 0 !important;
     }
 
-    #bonsai-settings-btn {
+    #wollemia-settings-btn {
         position: fixed;
         bottom: 0px;
         right: 8px;
@@ -668,10 +669,10 @@
         -webkit-backdrop-filter: blur(8px);
         pointer-events: auto;
     }
-    #bonsai-settings-btn:hover { background: rgba(0,0,0,0.75); }
-    body.msfs-hidden #bonsai-settings-btn { display: none !important; }
+    #wollemia-settings-btn:hover { background: rgba(0,0,0,0.75); }
+    body.msfs-hidden #wollemia-settings-btn { display: none !important; }
 
-    #bonsai-settings {
+    #wollemia-settings {
         position: fixed;
         top: 55px;
         right: 4px;
@@ -691,34 +692,34 @@
         display: none;
         pointer-events: auto;
     }
-    #bonsai-settings.show { display: block; }
-    #bonsai-settings h3 {
+    #wollemia-settings.show { display: block; }
+    #wollemia-settings h3 {
         font-size: 12px; letter-spacing: 3px; margin: 0 0 10px; color: #ccc;
         border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 6px;
     }
-    #bonsai-settings h4 {
+    #wollemia-settings h4 {
         font-size: 10px; letter-spacing: 2px; margin: 12px 0 6px; color: #888;
     }
-    #bonsai-settings .row {
+    #wollemia-settings .row {
         display: flex; align-items: center; justify-content: space-between;
         padding: 4px 0;
     }
-    #bonsai-settings .row label { flex: 1; cursor: pointer; }
-    #bonsai-settings input[type="checkbox"] { accent-color: #fff; cursor: pointer; }
-    #bonsai-settings input[type="range"] { width: 130px; }
-    #bonsai-settings input[type="text"] {
+    #wollemia-settings .row label { flex: 1; cursor: pointer; }
+    #wollemia-settings input[type="checkbox"] { accent-color: #fff; cursor: pointer; }
+    #wollemia-settings input[type="range"] { width: 130px; }
+    #wollemia-settings input[type="text"] {
         width: 60px; background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.25);
         color: #fff; padding: 2px 6px; font-family: inherit; text-align: center;
         text-transform: uppercase;
     }
-    #bonsai-settings .hint { color: #888; font-size: 10px; margin-top: 4px; }
-    #bonsai-settings button.reset {
+    #wollemia-settings .hint { color: #888; font-size: 10px; margin-top: 4px; }
+    #wollemia-settings button.reset {
         margin-top: 10px; width: 100%; padding: 6px;
         background: rgba(255,255,255,0.08); color: #fff;
         border: 1px solid rgba(255,255,255,0.2); cursor: pointer;
         font-family: inherit; letter-spacing: 2px; font-size: 11px;
     }
-    #bonsai-settings button.reset:hover { background: rgba(255,255,255,0.18); }
+    #wollemia-settings button.reset:hover { background: rgba(255,255,255,0.18); }
     `;
 
     function buildSpeedTicks() {
@@ -756,14 +757,17 @@
 
     // Globals
     let VERSION = geofs.version;
+    let BRAKE_INTERVAL;
     let SPOILERS_ARMED = false;
+    let AUTO_BRAKE = false;
+    let ON_GROUND;
     let FLAPS = null;
     let GEARS = null;
     let BRAKES = null;
     let SPOILERS = null;
     let ENGINE = null;
 
-    const SETTINGS_KEY = 'bonsaiUISettings_v1';
+    const SETTINGS_KEY = 'wollemiaUISettings_v1';
     const PANELS = [
         { id: 'msfs-hdg', label: 'Heading compass' },
         { id: 'msfs-spd', label: 'Airspeed tape' },
@@ -819,7 +823,7 @@
         const root = document.getElementById('msfs-ui-root');
         if (root) {
             root.style.opacity = String(_settings.opacity);
-            root.style.setProperty('--bonsai-bottom', (_settings.bottomOffset || 0) + 'px');
+            root.style.setProperty('--wollemia-bottom', (_settings.bottomOffset || 0) + 'px');
         }
         const sc = _settings.scale || 1;
         for (const p of PANELS) {
@@ -831,25 +835,25 @@
             //const scaleTransform = (sc === 1) ? '' : `scale(${sc})`;
             //el.style.transform = [baseTransform, scaleTransform].filter(Boolean).join(' ');
         }
-        const popup = document.getElementById('bonsai-landing-popup');
+        const popup = document.getElementById('wollemia-landing-popup');
         if (popup && !_settings.landingPopup) {
             popup.classList.remove('show');
         }
     }
 
     function buildSettingsPanel() {
-        if (document.getElementById('bonsai-settings')) return;
+        if (document.getElementById('wollemia-settings')) return;
 
         const btn = document.createElement('button');
-        btn.id = 'bonsai-settings-btn';
+        btn.id = 'wollemia-settings-btn';
         btn.textContent = '⚙';
-        btn.title = 'Bonsai UI settings';
+        btn.title = 'wollemia UI settings';
         document.body.appendChild(btn);
 
         const panel = document.createElement('div');
-        panel.id = 'bonsai-settings';
+        panel.id = 'wollemia-settings';
         panel.innerHTML = `
-            <h3>BONSAI UI</h3>
+            <h3>wollemia UI</h3>
             <h4>ELEMENTS</h4>
             ${PANELS.map(p => `
                 <div class="row">
@@ -1232,6 +1236,7 @@
 
         return {
             ias: av.kias ?? av.ias ?? 0,
+            tas: av.ktas ?? av.tas ?? 0,
             alt: av.altitude ?? av.altitude1 ?? 0,
             hdg: ((av.heading360 ?? av.heading ?? 0) + 360) % 360,
             flapStage,
@@ -1306,7 +1311,7 @@
                         vGear.classList.add('tran');
                     } else {
                         vGear.textContent = s.gearDown ? 'DOWN' : 'UP';
-                        vGear.classList.remove('tran')
+                        vGear.classList.remove('tran')  
                         vGear.classList.toggle('on', !!s.gearDown);
                         vGear.classList.toggle('off', !s.gearDown);
                     }
@@ -1317,11 +1322,11 @@
 
                 const vBrk = document.getElementById('v-brk');
                 if (vBrk) {
-                    BRAKES = s.brakesOn;
                     vBrk.textContent = s.brakesOn ? 'ON' : 'OFF';
                     vBrk.classList.toggle('on', !!s.brakesOn);
-                    vBrk.classList.toggle('off', !s.brakesOn);
+                    vBrk.classList.toggle('off', !s.brakesOn); 
                 }
+                BRAKES = s.brakesOn;
             }
             
             if(SPOILERS == null || SPOILERS !== s.spoilers) {
@@ -1335,6 +1340,14 @@
                     vSpl.classList.toggle('off', !splOn);
                 }
             }
+
+            if(ON_GROUND && SPOILERS_ARMED && s.tas < 40) {
+                    armSpoilers();
+                    //clearInterval(BRAKE_INTERVAL);
+                    //AUTO_BRAKE = false; 
+                    //BRAKES ? toggleBrakes() : BRAKES = false;
+            }
+
 
             const vVs = document.getElementById('v-vs');
 
@@ -1438,10 +1451,10 @@
     }
 
     function ensureLandingPopup() {
-        let el = document.getElementById('bonsai-landing-popup');
+        let el = document.getElementById('wollemia-landing-popup');
         if (el) return el;
         el = document.createElement('div');
-        el.id = 'bonsai-landing-popup';
+        el.id = 'wollemia-landing-popup';
         document.body.appendChild(el);
         return el;
     }
@@ -1454,9 +1467,9 @@
         return { label: 'HARD LANDING', cls: 'hard' };
     }
 
-    let _bonsaiPrevGround = true;
-    let _bonsaiPrevVS = 0;
-    let _bonsaiPopupTimer = null;
+    let _wollemiaPrevGround = true;
+    let _wollemiaPrevVS = 0;
+    let _wollemiaPopupTimer = null;
 
     function showLandingPopup(fpm) {
         if (!_settings.landingPopup) return;
@@ -1469,8 +1482,8 @@
             <div class="bl-grade ${g.cls}">${g.label}</div>
         `;
         requestAnimationFrame(() => popup.classList.add('show'));
-        if (_bonsaiPopupTimer) clearTimeout(_bonsaiPopupTimer);
-        _bonsaiPopupTimer = setTimeout(() => {
+        if (_wollemiaPopupTimer) clearTimeout(_wollemiaPopupTimer);
+        _wollemiaPopupTimer = setTimeout(() => {
             popup.classList.remove('show');
         }, 5000);
     }
@@ -1480,23 +1493,29 @@
             const g = window.geofs;
             if (!g || !g.animation || !g.animation.values) return;
             const av = g.animation.values;
-            const grounded = !!av.groundContact;
+            ON_GROUND = !!av.groundContact;
             const vs = av.verticalSpeed;
-            if (grounded && !_bonsaiPrevGround) {
-                const touchdownFpm = (typeof _bonsaiPrevVS === 'number' && _bonsaiPrevVS !== 0)
-                    ? _bonsaiPrevVS
+            if (ON_GROUND && !_wollemiaPrevGround) {
+                const touchdownFpm = (typeof _wollemiaPrevVS === 'number' && _wollemiaPrevVS !== 0)
+                    ? _wollemiaPrevVS
                     : (typeof vs === 'number' ? vs : 0);
                 showLandingPopup(touchdownFpm);
-                VERSION < 4 && SPOILERS_ARMED === true ? toggleSpoilers() : null;
+                SPOILERS_ARMED === true ? autoBraking() : null;
             }
-            if (!grounded && typeof vs === 'number') _bonsaiPrevVS = vs;
-            _bonsaiPrevGround = grounded;
-        }, 80);
+            if (!ON_GROUND && typeof vs === 'number') _wollemiaPrevVS = vs;
+            _wollemiaPrevGround = ON_GROUND;
+        }, 100);
+    }
+
+    function autoBraking() {
+        if(VERSION < 4) toggleSpoilers();
+        //AUTO_BRAKE = true;
+        //BRAKE_INTERVAL = setInterval(() => {toggleBrakes()}, 50);
     }
 
     function toggleSpoilers() {
         if(typeof controls.setters.setAirbrakes.set != 'function') return;
-        controls.setters.setAirbrakes.set(1);
+        controls.setters.setAirbrakes.set();
     }
 
     function toggleBrakes() {
@@ -1519,6 +1538,7 @@
         let indicator = document.getElementById('v-auto-spl');
         if(typeof indicator == "undefined") return;
         if(VERSION > 3.9 && typeof controls.airbrakes.armed != 'number') return
+
         // If AirBrakes are on, Arming them would trigger a cycle bug.
         controls.setters.setAirbrakesDown.set()
         if(SPOILERS_ARMED === false) {
